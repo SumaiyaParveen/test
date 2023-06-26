@@ -207,3 +207,21 @@ section {
   font-size: 1.25rem;
 }
 
+/* contact */
+.contactme {
+  display: flex;
+}
+
+.contactme-information {
+  width: 50%;
+}
+
+.contactme-content {
+  border: 2px solid #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}

@@ -4,32 +4,38 @@
 
 
   
-  <h1> Contact Me via: </h1>
-  <p> Email : sumaiyaparveen20101@gmail.com</p>
-  <p> Phone no: +1 4375715127</p>
+  
   
   <main class="l-main" >
   <section class="contactme">
+    <div class="contactme-information">
+      <h1> Contact Me via: </h1>
+      <p> Email : sumaiyaparveen20101@gmail.com</p>
+      <p> Phone no: +1 4375715127</p>
+    </div>
     <div class="container">
       <div class="contactme-content">
-        <div class="mb-3">
-          <p> For Further queries, please fill the form below :</p>
-          <label for="exampleFormControlInput1" class="form-label">Name:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" width: 40% placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Mobile Number:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email Address:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Message:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <button type="button"  class="btn btn-outline-success"  >Submit</button>
+        <form class="form" method="POST">
+          <div class="mb-3">
+            <p> For Further queries, please fill the form below :</p>
+            <label for="exampleFormControlInput1" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" name="name" width: 40% placeholder="John Doe">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Mobile Number:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="(+1) 437-200-10000">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email Address:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Message:</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Message">
+          </div>
+          <button type="submit"  class="btn btn-outline-success"  >Submit</button>
+        </form>
+       
       </div>
   </section>
 </main>
